@@ -1,7 +1,7 @@
 header {
     background:lightblue;
     color: white;
-    font-family: "Joti One", cursive, sans-serif;
+    font-family: "Joti One", cursive, Helvetica;
     font-size: 32px;
     text-align: center;
     width: 100vw;
@@ -19,13 +19,13 @@ header {
   }
   h2 {
     text-decoration-color: black;
-    font-family: sans-serif;
+    font-family: Helvetica;
     text-align: center;
     color:black;
   }
   h3 {
     text-decoration-color: black;
-    font-family: sans-serif;
+    font-family: Helvetica;
     text-align: center;
     color:black;
   }
@@ -106,11 +106,11 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: green;
+    background-color: lightgreen;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-family: sans-serif;
+    font-family: Helvetica;
   }
   
   .dropdown-content a {
@@ -121,7 +121,7 @@ header {
   }
   
   .dropdown-content a:hover {
-    background-color: green;
+    background-color: lightgreen;
     color: white;
   }
   
@@ -146,7 +146,7 @@ header {
   }
   h5 {
     text-decoration-color: black;
-    font-family: sans-serif;
+    font-family: Helvetica;
     text-align: center;
     color:black;
   }
@@ -163,18 +163,10 @@ header {
     text-decoration-color: white;
     color:white;
   }
-  .footer-tc {
-    color:black;
-  }
-  .centertheh3 {
-    text-align:center;
-    align-content: center;
-  }
-  .ultcp {
-    align-content: center;
-    padding-left:400px;
-  }
-  .centerdalink {
-    padding-left:700px;
-    color:blue;
-  }
+.floatright {
+  float:right;
+}
+.ultcp {
+  align-content: center;
+  padding-left:500px;
+}
