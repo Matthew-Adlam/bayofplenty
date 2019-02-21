@@ -1,5 +1,5 @@
 header {
-    background:lightblue;
+    background: radial-gradient(circle at bottom center, lightblue, yellow);
     color: white;
     font-family: "Joti One", cursive, Helvetica;
     font-size: 32px;
@@ -169,4 +169,18 @@ header {
 .ultcp {
   align-content: center;
   padding-left:500px;
+}
+.centerdalinkz {
+  align-content: center;
+  align-items: center;
+  padding: 900px;
+}
+.backgroundimg1 {
+  align-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.makelistbigger {
+  size: 150%;
+  text-size-adjust: 150%
 }
