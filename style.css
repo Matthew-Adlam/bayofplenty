@@ -171,8 +171,6 @@ header {
   padding-left:500px;
 }
 .centerdalinkz {
-  align-content: center;
-  align-items: center;
   padding: 900px;
 }
 .backgroundimg1 {
@@ -183,4 +181,15 @@ header {
 .makelistbigger {
   size: 150%;
   text-size-adjust: 150%
+}
+a {
+  text-decoration-color: blue;
+  color: blue;
+  align-content: center;
+  text-decoration: none;
+  align-self: center;
+}
+.omg link {
+  text-align:center;
+  text-decoration-color: blue;
 }
