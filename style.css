@@ -168,7 +168,7 @@ header {
 }
 .ultcp {
   align-content: center;
-  padding-left:800px;
+  padding-left:700px;
 }
 .centerdalinkz {
   padding: 900px;
@@ -194,5 +194,5 @@ a {
   text-decoration-color: blue;
 }
 .tcp {
-  padding-left: 700px;
+  padding-left: 500px;
 }
