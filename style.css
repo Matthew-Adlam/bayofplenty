@@ -1,3 +1,4 @@
+/* all my css  */
 header {
     background: radial-gradient(circle at bottom center, lightblue, yellow);
     color: white;
@@ -37,7 +38,6 @@ header {
   nav a{
       color:#ccc;
       display: inline-block;
-      font-weight: 850;
       padding: 5px 10px;
       text-decoration: none;
   }
@@ -80,10 +80,7 @@ header {
   a href{
     text-align:center;
   }
-  iframe{
-    display: center;
-    border: 5px;
-  }
+
   p{
     text-align: center;
     text-decoration-color: black;
@@ -179,8 +176,7 @@ header {
   background-repeat: no-repeat;
 }
 .makelistbigger {
-  size: 150%;
-  text-size-adjust: 150%
+  
 }
 a {
   text-decoration-color: blue;
@@ -195,4 +191,7 @@ a {
 }
 .tcp {
   padding-left: 500px;
+}
+img {
+  border: 0px;
 }
