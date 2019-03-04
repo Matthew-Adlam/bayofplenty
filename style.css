@@ -157,7 +157,7 @@ header {
     display: block;
   }
   .footer-text {
-    text-decoration-color: white;
+    text-decoration-color: blue;
     color:white;
   }
 .floatright {
@@ -176,7 +176,7 @@ header {
   background-repeat: no-repeat;
 }
 .makelistbigger {
-  
+ 
 }
 a {
   text-decoration-color: blue;
@@ -194,4 +194,7 @@ a {
 }
 img {
   border: 0px;
+}
+.contactform {
+  align-content: center;
 }
