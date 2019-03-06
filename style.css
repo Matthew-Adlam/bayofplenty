@@ -1,4 +1,4 @@
-/* all my css  */
+/* Colouring, postitioning and designing the font for the header */
 header {
     background: radial-gradient(circle at bottom center, lightblue, yellow);
     color: white;
@@ -10,14 +10,17 @@ header {
     padding:0;
     margin:0;
   }
+  /* Body and header setup, so it is full width of page. */
   body{
     padding: 0;
     margin:0;
   }
+  /* Positioning the header so it isnt at the bottom of the page*/
   header h1 {
     padding-top: 100px;
     margin: 0;
   }
+  /* h2, h3 styling */
   h2 {
     text-decoration-color: black;
     font-family: Helvetica;
@@ -30,42 +33,48 @@ header {
     text-align: center;
     color:black;
   }
+  /* Styling the nav, makes background colour black, padding, font.*/
   nav{
       background: black;
     padding: 0 10px;
     font-family: sans-serif;
   }
+  /* Making the nav links styled, the display to inline-block, no text decoration */
   nav a{
       color:#ccc;
       display: inline-block;
       padding: 5px 10px;
       text-decoration: none;
   }
+  /* Shows a different colour for a link that has been visited */
   nav a:visited {
     color: white;
     background-color: transparent;
     text-decoration: none;
   }
+  /* Sets hover colour */
   nav a:hover{
-      color:white;
+      color:black;
   
   }
+  /* Make the visited link black */
   a:visited{
       text-decoration-color: black;
   }
+    /* Make the link black */
   a{
       text-decoration-color: black;
   }
+    /* Make the hover link black */
   a:hover{
       text-decoration-color: black;
   }
-  p{
-  text-align:center;
-  }
+  /* Makes the aside to right, and floats it to the right, not left. */
   aside{
     display: block;
     float: right;
   }
+  /* Styles the footer how i want it, with border width, specifies height, text decoration, aligns text, etc. */
   footer{
     height:200px;
     border-color: darkorange;
@@ -77,16 +86,17 @@ header {
     text-decoration-color:  red;
     text-decoration: none;
   }
+  /* Sets links to align in the center */
   a href{
     text-align:center;
   }
-
+  /* sets paragraph to align center, colour to black and increases font size */
   p{
     text-align: center;
     text-decoration-color: black;
     font-size: 110%;
   }
-  
+  /* Sets all things with the dropbtn class to these attributes */
   .dropbtn {
     background-color: black;
     color: white;
@@ -94,12 +104,12 @@ header {
     font-size: 16px;
     border: none;
   }
-  
+  /* Positioning my dropdown menu */
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+  /* Styling the dropdown content */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -109,19 +119,19 @@ header {
     z-index: 1;
     font-family: Helvetica;
   }
-  
+  /* Styles the link in the dropdown */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
+  /* Specifices the styling in the dropdown when a link is hovered on */
   .dropdown-content a:hover {
     background-color: lightgreen;
     color: white;
   }
-  
+  /*  */
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -159,7 +169,7 @@ header {
   .footer-text {
     text-decoration-color: blue;
     color:white;
-  }
+   }
 .floatright {
   float:right;
 }
