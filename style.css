@@ -15,7 +15,7 @@ header {
     padding: 0;
     margin:0;
   }
-  /* Positioning the header so it isnt at the bottom of the page*/
+  /* Positioning the header so it isnt at the top of the page*/
   header h1 {
     padding-top: 100px;
     margin: 0;
@@ -54,7 +54,7 @@ header {
   }
   /* Sets hover colour */
   nav a:hover{
-      color:black;
+      color:whitesmoke;
   
   }
   /* Make the visited link black */
@@ -128,35 +128,28 @@ header {
   }
   /* Specifices the styling in the dropdown when a link is hovered on */
   .dropdown-content a:hover {
-    background-color: lightgreen;
-    color: white;
+    background-color: blue;
+    color: yellow;
   }
-  /*  */
+  /* sets the content hovered in the dropdown to display block */
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
-  .learnimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  /* displays and aligns the images */
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 0px;
   }
-  .ad {
-    float: right;
-    clear: none;
-    padding:10px;
-  }
+  /* Styles h5 */
   h5 {
     text-decoration-color: black;
     font-family: Helvetica;
     text-align: center;
     color:black;
   }
+  /* Styles the footer, sets padding. */
   footer {
     background-color:lightblue;
     padding-top: 20px;
@@ -166,28 +159,31 @@ header {
     text-decoration-color: white;
     display: block;
   }
+  /* Colours the footer text */
   .footer-text {
     text-decoration-color: blue;
     color:white;
    }
+   /* Sets float right */
 .floatright {
   float:right;
 }
+/* Styling the class ultcp */
 .ultcp {
   align-content: center;
   padding-left:700px;
 }
+/* Styling the class centerdalinkz */
 .centerdalinkz {
   padding: 900px;
 }
+/* Styling the class backgroundimg1 */
 .backgroundimg1 {
   align-content: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.makelistbigger {
- 
-}
+/* Styling the links */
 a {
   text-decoration-color: blue;
   color: blue;
@@ -195,16 +191,16 @@ a {
   text-decoration: none;
   align-self: center;
 }
+/* Styling the class omg link */
 .omg link {
   text-align:center;
   text-decoration-color: blue;
 }
+/* Styling the class tcp */
 .tcp {
   padding-left: 500px;
 }
-img {
-  border: 0px;
-}
+/* Styling the class contactform */
 .contactform {
   align-content: center;
 }
