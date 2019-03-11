@@ -1,7 +1,7 @@
 /* Colouring, postitioning and designing the font for the header */
 header {
     background: radial-gradient(circle at bottom center, lightblue, yellow);
-    color: white;
+    color: blue;
     font-family: "Joti One", cursive, Helvetica;
     font-size: 32px;
     text-align: center;
@@ -14,6 +14,7 @@ header {
   body{
     padding: 0;
     margin:0;
+    padding-bottom: 0;
   }
   /* Positioning the header so it isnt at the top of the page*/
   header h1 {
@@ -162,7 +163,8 @@ header {
   /* Colours the footer text */
   .footer-text {
     text-decoration-color: blue;
-    color:white;
+    color:black;
+    text-decoration:bold;
    }
    /* Sets float right */
 .floatright {
@@ -172,10 +174,6 @@ header {
 .ultcp {
   align-content: center;
   padding-left:700px;
-}
-/* Styling the class centerdalinkz */
-.centerdalinkz {
-  padding: 900px;
 }
 /* Styling the class backgroundimg1 */
 .backgroundimg1 {
@@ -203,4 +201,9 @@ a {
 /* Styling the class contactform */
 .contactform {
   align-content: center;
+}
+/* Centers the table */
+.centerdatable {
+ align-content: center;
+ 
 }
