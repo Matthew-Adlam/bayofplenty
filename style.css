@@ -77,12 +77,15 @@ header {
   }
   /* Styles the footer how i want it, with border width, specifies height, text decoration, aligns text, etc. */
   footer{
-    height:200px;
-    border-color: darkorange;
+    height:300px;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom: solid white 5px;
     background-color: #eee;
     border-width: 5px;
     border-bottom-color: black;
-    border-color: black;
+    border-color: yellow;
     text-align: center;
     text-decoration-color:  red;
     text-decoration: none;
@@ -196,7 +199,7 @@ a {
 }
 /* Styling the class tcp */
 .tcp {
-  padding-left: 500px;
+  padding-left: 300px;
 }
 /* Styling the class contactform */
 .contactform {
